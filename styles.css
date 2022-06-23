@@ -1,0 +1,59 @@
+body{
+    background-color: gold;
+    font-family: Brush Script MT, cursive;
+    text-align: center;
+    color: white;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: black ;
+    border-width: thick;
+    background: navy;
+    height: 70px;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#your-choice{
+    margin-right: 100px;
+}
+#score{
+    font-size: 40px;
+}
+.buttons{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    color: white;
+    font-size:20px;
+    margin: 50px;
+    padding: 30px;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: turquoise;
+    transition-delay: 20ms;
+    font-family: Brush Script MT, cursive;
+}
+
+button:hover{
+    opacity: 0.9;
+    box-shadow: 5px 5px 10px black;
+}
+
+button:active{
+    opacity: 0.7;
+}
